@@ -113,4 +113,7 @@
     <rule ref="PEAR.Functions.FunctionCallSignature.Indent">
         <severity>0</severity>
     </rule>
+    <rule ref="Symfony2.Commenting.ClassComment.Missing">
+        <severity>0</severity>
+    </rule>
 </ruleset>
