@@ -119,4 +119,7 @@
     <rule ref="Symfony2.Classes.MultipleClassesOneFile">
         <severity>0</severity>
     </rule>
+    <rule ref="Zend.NamingConventions.ValidVariableName.NotCamelCaps">
+        <severity>0</severity>
+    </rule>
 </ruleset>
