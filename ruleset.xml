@@ -101,17 +101,17 @@
     <rule ref="Symfony2.Formatting.BlankLineBeforeReturn"/>
 
     <!-- quickmobile rules -->
-    <rule ref="Squiz">
-        <exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired">
+        <severity>0</severity>
     </rule>
-    <rule ref="Squiz">
-       <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/> 
+    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
+        <severity>0</severity>
     </rule>
-    <rule ref="Squiz">
-        <exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/>
+    <rule ref="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace">
+        <severity>0</severity>
     </rule>
-    <rule ref="Squiz">
-        <exclude name="Squiz.PHP.CommentedOutCode.Found"/>
+    <rule ref="Squiz.PHP.CommentedOutCode.Found">
+        <severity>0</severity>
     </rule>
     <rule ref="PEAR.Functions.FunctionCallSignature.Indent">
         <severity>0</severity>
