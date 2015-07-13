@@ -101,14 +101,17 @@
     <rule ref="Symfony2.Formatting.BlankLineBeforeReturn"/>
 
     <!-- quickmobile rules -->
-    <rule ref="Squiz.Strings.DoubleQuoteUsage.NotRequired">
-        <severity>0</severity>
+    <rule ref="Squiz">
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
     </rule>
-    <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
-        <severity>0</severity>
+    <rule ref="Squiz">
+       <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar"/> 
     </rule>
-    <rule ref="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace">
-        <severity>0</severity>
+    <rule ref="Squiz">
+        <exclude name="Squiz.ControlStructures.ControlSignature.NewlineAfterOpenBrace"/>
+    </rule>
+    <rule ref="Squiz">
+        <exclude name="Squiz.PHP.CommentedOutCode.Found"/>
     </rule>
     <rule ref="PEAR.Functions.FunctionCallSignature.Indent">
         <severity>0</severity>
@@ -120,6 +123,12 @@
         <severity>0</severity>
     </rule>
     <rule ref="Zend.NamingConventions.ValidVariableName.NotCamelCaps">
-        <severity>0</severity>
+        <severity>3</severity>
+    </rule>
+    <rule ref="Symfony2.WhiteSpace.DiscourageFitzinator">
+        <severity>5</severity>
+    </rule>
+    <rule ref="PEAR.Functions.ValidDefaultValue.NotAtEnd">
+        <severity>3</severity>
     </rule>
 </ruleset>
