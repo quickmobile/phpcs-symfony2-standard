@@ -134,4 +134,13 @@
     <rule ref="PEAR.Functions.ValidDefaultValue.NotAtEnd">
         <severity>3</severity>
     </rule>
+    <rule ref="Zend.NamingConventions.ValidVariableName.MemberVarNotCamelCaps">
+        <severity>3</severity>
+    </rule>
+    <rule ref="Zend.NamingConventions.ValidVariableName.StringVarContainsNumbers">
+        <severity>0</severity>
+    </rule>
+    <rule ref="Squiz.Functions.GlobalFunction.Found">
+        <severity>0</severity>
+    </rule>
 </ruleset>
