@@ -102,7 +102,7 @@
 
     <!-- quickmobile rules -->
     <rule ref="Generic.PHP.NoSilencedErrors">
-        <severity>5</severity>
+        <severity>0</severity>
     </rule>
     <rule ref="Symfony2.Commenting.SpaceAfterCPPCommentStart">
         <severity>3</severity>
